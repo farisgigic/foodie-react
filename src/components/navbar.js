@@ -2,6 +2,7 @@
 import React from "react";
 import "../styles/foodie.css";
 
+
 const Navbar = () => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">Foodie</a>
@@ -24,7 +25,7 @@ const Navbar = () => (
                         <li><a className="dropdown-item" href="/login">Login</a></li>
                         <li><a className="dropdown-item" href="/register">Signup</a></li>
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item" href="/">Guest</a></li>
+                        <li><a className="dropdown-item" href="/recipes">Guest</a></li>
                     </ul>
                 </li>
             </ul>

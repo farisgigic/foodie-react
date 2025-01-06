@@ -17,9 +17,7 @@ const Register = () => (
                                 for your business
                             </h1>
                             <p style={{ color: "hsl(217, 10%, 50.8%)" }}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, itaque accusantium odio, soluta, corrupti
-                                aliquam quibusdam tempora at cupiditate quis eum maiores libero veritatis? Dicta facilis sint aliquid ipsum
-                                atque?
+                                Join our vibrant community of food lovers by signing up and exploring a collection of delicious, easy-to-make recipes. Whether you're a seasoned chef or just starting, you'll find something that suits your taste and skill level. Get personalized recipe recommendations, save your favorites, and share your own culinary creations. Register now and start your journey to becoming a culinary expert today!
                             </p>
                         </div>
 

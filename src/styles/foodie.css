@@ -162,7 +162,7 @@ button:hover {
 
 /* About Us Section */
 .about-us-section {
-    background-image: url('/src/assets/Mini Lemon Cheesecakes.jpg'); /* Replace with your image URL */
+    background-image: url('/src/assets/picture5.jpg'); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
     color: white;
@@ -260,7 +260,7 @@ footer {
 
 /* Hero Section */
 #home {
-    background-image: url('/src/assets/Swiss Chard and Navy Bean Soup.jpg');
+    background-image: url('/src/assets/picture8.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -314,4 +314,42 @@ p {
 
 button {
     font-size: 1.1rem;
+}
+
+/* Recipes page */
+.recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    /* background-image: url("../assets/picture7.jpg");  */
+    background-size: cover; /* Make the image cover the card */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repeating */
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.recipe-card h4 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+.recipe-card p {
+    font-size: 1rem;
+    color: #555;
+}
+.recipe-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+.dropdown-section {
+    margin: 20px 0;
+    text-align: center;
 }
