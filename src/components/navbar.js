@@ -23,7 +23,7 @@ const Navbar = () => (
                     </a>
                     <ul className="dropdown-menu">
                         <li><a className="dropdown-item" href="/login">Login</a></li>
-                        <li><a className="dropdown-item" href="/register">Signup</a></li>
+                        <li><a className="dropdown-item" href="/register">Sign in</a></li>
                         <li><hr className="dropdown-divider" /></li>
                         <li><a className="dropdown-item" href="/recipes">Guest</a></li>
                     </ul>

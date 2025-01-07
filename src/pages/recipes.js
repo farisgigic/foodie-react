@@ -2,18 +2,25 @@ import React, { useState } from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import "../styles/foodie.css";
+import picture1 from "../assets/picture1.jpg";
+import picture2 from "../assets/picture2.jpg";
+import picture3 from "../assets/picture3.jpg";
+import picture4 from "../assets/picture4.jpg";
+import picture5 from "../assets/picture6.jpg";
+import picture6 from "../assets/picture7.jpg";
+
 
 const Recipes = () => {
   const [filter, setFilter] = useState("all");
 
   // Define recipes with a category
   const recipes = [
-    { id: 1, name: "Cookie Bliss", category: "desserts", img: "http://localhost:3000/static/media/picture1.328d05818a2ec202b079.jpg", description: "Discover the ultimate recipe for soft, chewy, and irresistible chocolate chip cookies." },
-    { id: 2, name: "Easy Chocolate Tiramisu", category: "desserts", img: "http://localhost:3000/static/media/picture2.1aa9241ea743c40f7c2e.jpg", description: "A quick and decadent twist on the classic tiramisu, ready to enjoy in just 20 minutes." },
-    { id: 3, name: "Pan Fried Ribeye", category: "savory", img: "http://localhost:3000/static/media/picture3.9d77dd4a393ca2585c64.jpg", description: "Delicious and moist pan fried ribeye." },
-    { id: 4, name: "Lemon Cheesecake Bites", category: "desserts", img: "http://localhost:3000/static/media/picture4.c1edd0d94a2d2194aeb8.jpg", description: "Tangy and creamy mini lemon cheesecakes, perfect for any occasion." },
-    { id: 5, name: "Stuffed Shells", category: "savory", img: "http://localhost:3000/static/media/picture7.f98bb5cf9287a6af6c6a.jpg", description: "Fast Stuffed shells with ground beef recipe." },
-    { id: 6, name: "French Onion ", category: "savory", img: "http://localhost:3000/static/media/picture6.6890c2aca42b1fed2207.jpg", description: "French onion stuffed potatoes." },
+    { id: 1, name: "Cookie Bliss", category: "desserts", img: picture1, description: "Discover the ultimate recipe for soft, chewy, and irresistible chocolate chip cookies." },
+    { id: 2, name: "Easy Chocolate Tiramisu", category: "desserts", img: picture2, description: "A quick and decadent twist on the classic tiramisu, ready to enjoy in just 20 minutes." },
+    { id: 3, name: "Pan Fried Ribeye", category: "savory", img: picture3, description: "Delicious and moist pan fried ribeye." },
+    { id: 4, name: "Lemon Cheesecake Bites", category: "desserts", img: picture4, description: "Tangy and creamy mini lemon cheesecakes, perfect for any occasion." },
+    { id: 5, name: "Stuffed Shells", category: "savory", img: picture6, description: "Fast Stuffed shells with ground beef recipe." },
+    { id: 6, name: "French Onion ", category: "savory", img: picture5, description: "French onion stuffed potatoes." },
   ];
 
   // Filter recipes based on selected category
