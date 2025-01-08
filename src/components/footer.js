@@ -1,13 +1,13 @@
-// src/components/Footer.js
 import React from "react";
-import "../styles/foodie.css";
 
-const Footer = () => (
-  <footer>
-    <div className="container">
-      <p>&copy; 2025 Foodie | Discover and Share Recipes</p>
-    </div>
-  </footer>
-);
+const Footer = () => {
+    return (
+        <footer className="bg-light text-center text-lg-start">
+            <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
+                © {new Date().getFullYear()} Your Company Name
+            </div>
+        </footer>
+    );
+};
 
 export default Footer;
