@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
     return (
         <footer className="bg-light text-center text-lg-start">
-            <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
-                © {new Date().getFullYear()} Your Company Name
+            <div className="text-center p-3" style={{ backgroundColor: "#7f6653" }}>
+                © 2025 Foodie
             </div>
         </footer>
     );

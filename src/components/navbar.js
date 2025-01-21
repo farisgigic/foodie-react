@@ -5,7 +5,7 @@ import "../styles/foodie.css";
 const Navbar = ({ handleLogout }) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="/">Foodie</a>
+            <a className="navbar-brand" href="/home">Foodie</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                 <span className="navbar-toggler-icon"></span>
             </button>

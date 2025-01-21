@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // Enable CORS for all routes
 app.use(cors({
-    origin: "http://localhost:3000", // Allow requests from frontend
+    origin: "http://localhost:3000", // localhost:3000 za uzimanje stvari sa frontenda
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
     credentials: true // If using cookies or session
 }));
